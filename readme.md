@@ -29,7 +29,7 @@ func main() {
 ```
 
 ### example
-
+```
 use on gin:
 
 type Server struct {
@@ -64,4 +64,4 @@ func (s *Server) setupRouteDoc(router *gin.RouterGroup, method, uri string, role
 		}
 	}
 }
-
+```
